@@ -1,0 +1,53 @@
+.titulo {
+    display: flex;
+    justify-content: center;
+    font-family: 'IBM Plex Serif', sans-serif;
+    font-size: 30px;
+    padding: 10px auto;
+    margin: 25px auto;
+}
+
+.titulo-2 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Anek Gujarati', sans-serif;
+    font-size: 20px;
+}
+
+.formulario {
+    /* Apenas para centralizar o form na página */
+    margin: 0 auto;
+    width: 600px;
+    /* Para ver as bordas do formulário */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    text-align: justify;
+    /* Cores de fonte e de fundo*/
+    background-color: #696969;
+    color: #FFFAFA;
+    /* Para muudar o estilo de fonte*/
+    font-family: 'Anek Gujarati', sans-serif;
+}
+
+.questao {
+    font-size: medium;
+}
+
+.botao {
+    background-color: #FFFAFA;
+    border: 1px transparent;
+    font-size: 12px;
+    padding: 4px 25px;
+    border-radius: 12px;
+    transition-duration: 0.2s;
+    font-family: 'Cabin', sans-serif;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+
+.botao:hover {
+    background-color: #CDC1C5;
+    color: #FFFFF0;
+}
